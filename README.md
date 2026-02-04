@@ -5,9 +5,8 @@
 [![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow.svg)](https://powerbi.microsoft.com)
 [![Status](https://img.shields.io/badge/Status-Completed-success.svg)]()
 
-&gt; **A comprehensive analysis of Fast-Moving Consumer Goods (FMCG) transaction data (2022-2024) featuring exploratory data analysis, promotional impact assessment, and sales forecasting to 2026.**
+> **A comprehensive analysis of Fast-Moving Consumer Goods (FMCG) transaction data (2022-2024) featuring exploratory data analysis, promotional impact assessment, and sales forecasting to 2026.**
 
-![Dashboard](fmcg_dashboard.png)
 
 ---
 
@@ -68,7 +67,7 @@ This project analyzes **190,757 transaction records** from a Polish FMCG company
 
 ### 4. 🎯 Promotion Impact Analysis
 
-**Statistical Significance:** Welch's t-test (p &lt; 0.001) confirms promotions significantly boost sales.
+**Statistical Significance:** Welch's t-test (p < 0.001) confirms promotions significantly boost sales.
 
 | Metric | No Promotion | With Promotion | Uplift |
 |--------|--------------|----------------|--------|
@@ -83,7 +82,11 @@ This project analyzes **190,757 transaction records** from a Polish FMCG company
 
 ## 📊 PowerBI Dashboard Insights
 
-![PowerBI Screenshot](screenshot_2026-02-03.png)
+<p align="center">
+  <img src="fmcg_dashboard.png.png" alt="PowerBI Dashboard" width="95%">
+  <br>
+  <em>Interactive dashboard: Revenue by category, region, channel with KPI cards</em>
+</p>
 
 **Dashboard Components:**
 - **Revenue by Category**: Horizontal bar chart showing Yogurt dominance
@@ -100,7 +103,11 @@ This project analyzes **190,757 transaction records** from a Polish FMCG company
 
 ## 🔮 2026 Sales Forecast
 
-![Forecast](fmcg_forecast.png)
+<p align="center">
+  <img src="fmcg_forecast.png.png" alt="2026 Forecast" width="95%">
+  <br>
+  <em>Time series analysis: Historical trend + 2025-2026 declining projection</em>
+</p>
 
 **Forecasting Methodology:**
 - **Historical Trend**: Time series analysis of 36-month data
@@ -129,6 +136,8 @@ This project analyzes **190,757 transaction records** from a Polish FMCG company
 | Stock-Out Rate | ~12% | ❌ **Action required** |
 
 ---
+##EDA
+![Dashboard](FMCG_EDA.png.png)
 
 ## 🛠️ Technical Implementation
 
